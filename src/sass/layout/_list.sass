@@ -1,15 +1,45 @@
 .list__container
   margin-top: 5%
-  width: 30%
-  height: 400px
+  width: 35%
+  height: 100%
   margin-left: 50%
   transform: translateX(-50%)
-  border: 1px solid #ccc
 .list__wrapper
-  margin: 20px
 .list
-  background: #fad
-  margin: 20px
-  padding: 20px
-  color: #fff
-  font-size: 1.25rem
+  height: 66px
+  background: #fafafa
+  margin: 22px
+  color: #787878
+.list__contents
+  text-indent: 1rem
+  font-size: 1.35rem
+  line-height: 66px
+  width: 75%
+  float: left
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+
+
+.list__icon
+  width: 25%
+  float: right
+  height: 66px
+  svg
+    width: 2rem
+    height: 2rem
+    line-height: 66px
+    float: left
+    fill: #aaaaaa
+    margin:
+      top: 1rem
+      left: 1.2rem
+    &:hover
+      fill: #D0021B
+      cursor: pointer
+    &.completed
+      fill: #25b99a
+svg.completeIcon
+  &:hover
+    fill: #25b99a
+    cursor: pointer
