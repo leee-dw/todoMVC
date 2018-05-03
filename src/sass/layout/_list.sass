@@ -4,16 +4,31 @@
   height: 100%
   margin-left: 50%
   transform: translateX(-50%)
-.list__wrapper
+.list__todo__wrapper
+  &:before
+    content: 'TO DO'
+    text-align: center
+    color: #383838
+    display: block
+    height: 25px
+.list__done__wrapper
+  &:before
+    content: 'DONE'
+    text-align: center
+    color: #383838
+    display: block
+    height: 25px
+
 .list
   height: 66px
-  background: #fafafa
+  background: #efefef
   margin: 22px
   color: #787878
+  border-radius: 5px
 .list__contents
   text-indent: 1rem
-  font-size: 1.35rem
-  line-height: 66px
+  font-size: 1.2rem
+  line-height: 72px
   width: 75%
   float: left
   white-space: nowrap
@@ -25,21 +40,28 @@
   width: 25%
   float: right
   height: 66px
+.complete__icon, .remove__icon
+  float: left
+  height: 66px
+  width: 50%
   svg
     width: 2rem
     height: 2rem
     line-height: 66px
-    float: left
     fill: #aaaaaa
-    margin:
-      top: 1rem
-      left: 1.2rem
-    &:hover
-      fill: #D0021B
-      cursor: pointer
-    &.completed
+    display: block
+    margin: auto
+    margin-top: 16.5px
+    .active
       fill: #25b99a
-svg.completeIcon
+      cursor: pointer
+
+.complete__icon svg
   &:hover
     fill: #25b99a
+    cursor: pointer
+
+.remove__icon svg
+  &:hover
+    fill: #D0021B
     cursor: pointer

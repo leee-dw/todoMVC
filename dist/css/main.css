@@ -52,14 +52,26 @@ table {
   justify-content: center; }
 
 .header__title__wrapper {
-  width: 30%;
+  width: 800px;
   height: 100px;
   position: relative; }
 
 .header__title__image {
-  width: 100%;
-  vertical-align: middle; }
+  width: 100px;
+  height: 100px;
+  float: left;
+  background: url(../../asset/dengdeng.png);
+  animation: play 1.2s steps(12) infinite; }
 
+.header__title__logo {
+  height: 100px;
+  float: left; }
+
+@keyframes play {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -1200px 0; } }
 .input__container {
   display: flex;
   width: 100%;
@@ -108,16 +120,31 @@ table {
   margin-left: 50%;
   transform: translateX(-50%); }
 
+.list__todo__wrapper:before {
+  content: "TO DO";
+  text-align: center;
+  color: #383838;
+  display: block;
+  height: 25px; }
+
+.list__done__wrapper:before {
+  content: "DONE";
+  text-align: center;
+  color: #383838;
+  display: block;
+  height: 25px; }
+
 .list {
   height: 66px;
-  background: #fafafa;
+  background: #efefef;
   margin: 22px;
-  color: #787878; }
+  color: #787878;
+  border-radius: 5px; }
 
 .list__contents {
   text-indent: 1rem;
-  font-size: 1.35rem;
-  line-height: 66px;
+  font-size: 1.2rem;
+  line-height: 72px;
   width: 75%;
   float: left;
   white-space: nowrap;
@@ -128,22 +155,29 @@ table {
   width: 25%;
   float: right;
   height: 66px; }
-  .list__icon svg {
+
+.complete__icon, .remove__icon {
+  float: left;
+  height: 66px;
+  width: 50%; }
+  .complete__icon svg, .remove__icon svg {
     width: 2rem;
     height: 2rem;
     line-height: 66px;
-    float: left;
     fill: #aaaaaa;
-    margin-top: 1rem;
-    margin-left: 1.2rem; }
-    .list__icon svg:hover {
-      fill: #D0021B;
+    display: block;
+    margin: auto;
+    margin-top: 16.5px; }
+    .complete__icon svg .active, .remove__icon svg .active {
+      fill: #25b99a;
       cursor: pointer; }
-    .list__icon svg.completed {
-      fill: #25b99a; }
 
-svg.completeIcon:hover {
+.complete__icon svg:hover {
   fill: #25b99a;
+  cursor: pointer; }
+
+.remove__icon svg:hover {
+  fill: #D0021B;
   cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

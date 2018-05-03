@@ -7,9 +7,23 @@
   justify-content: center
 
 .header__title__wrapper
-  width: 30%
+  width: 800px
   height: 100px
   position: relative
 .header__title__image
-  width: 100%
-  vertical-align: middle
+  width: 100px
+  height: 100px
+  float: left
+  background: url(../../asset/dengdeng.png)
+  animation: play 1.2s steps(12) infinite
+
+.header__title__logo
+  height: 100px
+  float: left
+  
+
+@keyframes play 
+  from
+    background-position: 0 0
+  to
+    background-position: -1200px 0
