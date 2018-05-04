@@ -121,16 +121,21 @@ table {
   transform: translateX(-50%); }
 
 .list__todo__wrapper:before {
-  content: "TO DO";
+  content: "TODO";
   text-align: center;
-  color: #383838;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  color: #aaa;
   display: block;
   height: 25px; }
 
 .list__done__wrapper:before {
+  margin-top: 2.5rem;
   content: "DONE";
   text-align: center;
-  color: #383838;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  color: #aaa;
   display: block;
   height: 25px; }
 
