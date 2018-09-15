@@ -1,0 +1,58 @@
+[debug] [2018-09-15T13:01:48.879Z] ----------------------------------------------------------------------
+[debug] [2018-09-15T13:01:48.881Z] Command:       /Users/dongwoolee/.nvm/versions/node/v10.1.0/bin/node /Users/dongwoolee/.nvm/versions/node/v10.1.0/bin/firebase serve
+[debug] [2018-09-15T13:01:48.881Z] CLI Version:   4.1.2
+[debug] [2018-09-15T13:01:48.881Z] Platform:      darwin
+[debug] [2018-09-15T13:01:48.881Z] Node Version:  v10.1.0
+[debug] [2018-09-15T13:01:48.882Z] Time:          Sat Sep 15 2018 22:01:48 GMT+0900 (KST)
+[debug] [2018-09-15T13:01:48.882Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-15T13:01:48.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-15T13:01:48.892Z] > authorizing via signed-in user
+[debug] [2018-09-15T13:01:48.895Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-15T13:01:48.895Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-15T13:01:49.173Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-15T13:01:49.196Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dong-todo  
+ 
+[debug] [2018-09-15T13:01:50.087Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-15T13:01:50.088Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dong-todo  
+ 
+[debug] [2018-09-15T13:01:51.313Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/dongwoolee/Documents/Dev/todoMVC'...
+[info] 
+[debug] [2018-09-15T13:01:51.315Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/69655332654/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-15T13:01:52.234Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-09-15T13:51:48.630Z] ----------------------------------------------------------------------
+[debug] [2018-09-15T13:51:48.632Z] Command:       /Users/dongwoolee/.nvm/versions/node/v10.1.0/bin/node /Users/dongwoolee/.nvm/versions/node/v10.1.0/bin/firebase serve
+[debug] [2018-09-15T13:51:48.632Z] CLI Version:   4.1.2
+[debug] [2018-09-15T13:51:48.632Z] Platform:      darwin
+[debug] [2018-09-15T13:51:48.632Z] Node Version:  v10.1.0
+[debug] [2018-09-15T13:51:48.633Z] Time:          Sat Sep 15 2018 22:51:48 GMT+0900 (KST)
+[debug] [2018-09-15T13:51:48.633Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-15T13:51:48.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-15T13:51:48.644Z] > authorizing via signed-in user
+[debug] [2018-09-15T13:51:48.646Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-15T13:51:48.646Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-15T13:51:49.013Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-15T13:51:49.034Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dong-todo  
+ 
+[debug] [2018-09-15T13:51:49.939Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-15T13:51:49.941Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dong-todo  
+ 
+[debug] [2018-09-15T13:51:50.865Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/dongwoolee/Documents/Dev/todoMVC'...
+[info] 
+[debug] [2018-09-15T13:51:50.867Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/69655332654/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-15T13:51:51.467Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

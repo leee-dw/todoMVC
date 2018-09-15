@@ -1,36 +1,28 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DONG TODO</title>
-  <link rel="stylesheet" href="dist/css/main.css">
-  <script defer src="./src/js/helper.js"></script>
-  <script defer src="./src/js/app.js"></script>
+  <title>TODO MVC</title>
 </head>
 
 <body>
-  <section class="header__container">
-    <div class="header__title__wrapper">
-      <div class=header__title__image alt="image"></div>
-      <img class=header__title__logo src="./asset/title.png" alt="title">
-    </div>
-  </section>
-  <div class="input__container">
-    <div class="input__wrapper">
-      <input type="text" class="input" placeholder="Type schedules & press ENTER">
-    </div>
-  </div>
-
-
-  <div class="list__container">
-    <ul class="list__todo__wrapper">
-    </ul>
-    <ul class="list__done__wrapper">
-    </ul>
-  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAA41QfCcyzRJXO52Db4H0aMg41yPQj7Os",
+      authDomain: "dong-todo.firebaseapp.com",
+      databaseURL: "https://dong-todo.firebaseio.com",
+      projectId: "dong-todo",
+      storageBucket: "dong-todo.appspot.com",
+      messagingSenderId: "69655332654"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="./app.js"></script>
 </body>
 
 </html>
